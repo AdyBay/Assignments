@@ -1,0 +1,109 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+     width: 70%;  
+}
+
+.sedan-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    color: white;
+    width: 20%;
+    margin: 10px 0px 0px 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.suv-content{
+    background-color: rgb(75, 147, 170);
+    padding: 2em;
+    width: 20%;
+    color: white;
+    margin: 10px 0px 0px 0px; 
+}
+
+.luxury-content {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 20%;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+}
+
+.head{
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'BigShoulders Display', 'c rsive';
+    margin: ;
+    color: white;
+    margin: 29px 0 0 20px;
+}
+
+.pc-1{
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+    max-width: 188px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.pc-2{
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+    max-width: 188px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.pc-3{
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.75);
+    max-width: 188px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.bt.n-1:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.bt.n-2:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: rgb(75, 147, 170);
+}
+
+.bt.n-3:hover{
+     border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+  
+.bt {
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 30px 20px;
+}
+
+.link-to-grid{
+    text-align: center;
+    margin-top: -90px;
+  }
+  
